@@ -1,6 +1,8 @@
 import Vue, { VueConstructor, DirectiveOptions, PluginFunction } from 'vue';
 
-const vToolTip: PluginFunction<any>;
+declare class vToolTip {
+  static install: PluginFunction<any>;
+}
 export default vToolTip;
 
 export const VPopover: VueConstructor<Vue>;
